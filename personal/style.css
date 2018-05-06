@@ -1,0 +1,36 @@
+html,body{
+	background-color: #fff;
+	margin:	0 auto;
+}
+.container{
+	position: relative;
+	background-color: #fefefe;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.header{
+	display: inline-block;
+}
+.logo-left{
+	width: 200px;
+	float: left;
+}
+.logo-right {
+	width:200px;
+	float: right;
+}
+.nav{
+	display: inline-block;
+}
+.nav div{
+	float: left;
+}
+.bg-red{
+	background-color: red;
+}
+.bg-green{
+	background-color: green;
+}
+.bg-blue{
+	background-color: blue;
+}
