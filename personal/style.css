@@ -9,21 +9,45 @@ html,body{
 	margin: 0 auto;
 }
 .header{
-	display: inline-block;
+	position: relative;
+	width: 100%;
+	background-color: #fff200;
+	height: 80px
 }
 .logo-left{
-	width: 200px;
 	float: left;
+	width: auto;
+	height: 80px
 }
 .logo-right {
+	position: relative;
 	width:200px;
-	float: right;
+	float: right;	
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.clear {
+    clear: both;
 }
 .nav{
-	display: inline-block;
-}
-.nav div{
+	position: relative;
+	background-color: #1d1f20;
+	width: 100%;
 	float: left;
+}
+.nav ul{
+	margin: 0 auto;
+	padding: 0;
+}
+.nav li{
+	float: right;
+	list-style-type: none;
+}
+.nav a{
+	padding: 10px 15px;
+	color: #fff
 }
 .bg-red{
 	background-color: red;
